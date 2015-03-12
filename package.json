@@ -1,0 +1,40 @@
+{
+  "name": "grunt-put",
+  "version": "1.0.0",
+  "description": "pipe a file to a http endpoint",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:opentable/grunt-put.git"
+  },
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "http",
+    "put",
+    "upload"
+  ],
+  "author": "Andy Royle <ajroyle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opentable/grunt-put/issues"
+  },
+  "homepage": "https://github.com/opentable/grunt-put",
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-cli": "^0.1.13",
+    "grunt": "^0.4.4"
+  },
+  "dependencies": {
+    "request": "^2.53.0"
+  },
+  "peerDependencies": {
+    "grunt": "^0.4.4"
+  }
+}
